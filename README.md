@@ -52,7 +52,6 @@ Navigate to the project directory:
 cd rm-prework-odin-mastermind
 ```
 
-(optional for RuboCop)
 ```bash
 bundle install
 ```
