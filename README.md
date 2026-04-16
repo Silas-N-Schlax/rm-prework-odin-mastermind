@@ -52,6 +52,8 @@ Navigate to the project directory:
 cd rm-prework-odin-mastermind
 ```
 
+Bundle for Rubocop, and Colorize:
+
 ```bash
 bundle install
 ```
