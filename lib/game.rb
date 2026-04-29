@@ -42,8 +42,8 @@ class Game
   def instructions
     "
     How to use this program:
-    - When guessing or setting a code you must pick 4 choicese and seperate
-    them by a comma. You must also use the frist letter of the color like this:
+    - When guessing or setting a code you must pick 4 choices and separate
+    them by a comma. You must also use the first letter of the color like this:
     (r,b,g,o) == (🔴,🔵,🟢,🟠)
     - You will have 12 attempts to guess the correct code the computer chooses,
     or the computer will have 12 attempts to guess your code.

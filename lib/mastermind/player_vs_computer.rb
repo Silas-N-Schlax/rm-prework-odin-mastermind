@@ -10,10 +10,10 @@ class PlayerVsComputer
     @code_maker = "You"
   end
 
-  def generate_answer(msg = "What is your secert code? -> ", color = :blue)
+  def generate_answer(msg = "What is your secret code? -> ", color = :blue)
     print msg.colorize(color)
     code = gets.chomp.downcase.split(",")
-    msg = "Please seperate your 4 choices by a comma. (r,b,y,o,p,g) -> "
+    msg = "Please separate your 4 choices by a comma. (r,b,y,o,p,g) -> "
     code = generate_answer(msg, :red) unless valid_input?(code)
     text_to_emoji(code)
   end

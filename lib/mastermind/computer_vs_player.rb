@@ -23,7 +23,7 @@ class ComputerVsPlayer
   def user_input(msg = "What is your guess for #{@row + 1} -> ", color = :blue)
     print msg.colorize(color)
     guess = gets.chomp.downcase.split(",")
-    guess = user_input("Please seperate your 4 choices by a comma. (r,b,y,o,p,g) -> ", :red) unless valid_input?(guess)
+    guess = user_input("Please separate your 4 choices by a comma. (r,b,y,o,p,g) -> ", :red) unless valid_input?(guess)
     guess
   end
 end
