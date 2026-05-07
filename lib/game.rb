@@ -9,7 +9,7 @@ class Game
     keyword = gets.chomp.chars.first.downcase
     call_method(keyword)
     start if keyword != "e"
-    puts "Thank you for playing!\n exiting...".colorize(:yellow)
+    puts "Thank you for playing!\nexiting...".colorize(:yellow) if keyword == "e"
   end
 
   def call_method(key)
